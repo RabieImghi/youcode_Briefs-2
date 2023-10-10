@@ -325,3 +325,32 @@ footer .cpy{
     font-size: 20px;
     width: 20%;
 }
+/* detail page */
+#detail_poduit{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    width: 90%;
+    margin: 10px 50px;
+    border: 1px solid black;
+}
+#detail_poduit .detail_image .image img{
+    border-radius: 10px;
+}
+#detail_poduit .detail_image .all_image{
+    display: flex;
+}
+#detail_poduit .detail_image .all_image img{
+    width: 80%;
+}
+
+/* #detail_poduit .all_image{
+    display: flex;
+    justify-content: space-between;
+    width: 20px;
+}
+#detail_poduit .all_image{
+    display: flex;
+    justify-content: space-between;
+    width: 20px;
+}
+#detail_poduit .imag {} */
