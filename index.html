@@ -24,7 +24,7 @@
             </ul>
         </nav>
     </header>
-    <hr style="margin: 0 50px; color: #707070;">
+    <hr >
     <main>
         <section id="Home_vue">
             <nav>
@@ -37,7 +37,7 @@
                     <li><img src="images/shirt.png" alt="shirt"><a href="#">Accessoires</a></li>
                     <li><img src="images/shirt.png" alt="shirt"><a href="#">Accessoires</a></li>
                     <li><img src="images/shirt.png" alt="shirt"><a href="#">Accessoires</a></li>
-                    <li><img src="images/shirt.png" alt="shirt"><a href="#">Accessoires</a></li>
+                    <li style="border: none;"><img src="images/shirt.png" alt="shirt"><a href="#">Accessoires</a></li>
                 </ul>
             </nav>
             <div class="image_ads">
@@ -52,15 +52,18 @@
                 </div>
                 <div class="description">
                     <span>$1200</span> <span class="s">$2600 <div class="ligneSup"></div></span>
-                    <p>Free Shoping Free Shoping <br>
+                    <p >Free Shoping Free Shoping <br>
                         Free Shoping Free Shoping free</p>
                     <div class="info_star">
                     <div class="star">
                         <img src="images/white-star-icon-10.png" alt="white star">
                         <span>5.0</span>
                     </div>
-                    <span class="sold">120 Sold</span> 
-                    <img src="images/hous.png" alt="hous"> 
+                    <div style="display: flex; align-items: center; justify-content: space-between; width: 100%;">
+                         <span class="sold">120 Sold</span> 
+                        <a href="#"><img class="add_cart" src="images/hous.png" alt="hous"> </a>
+                    </div>
+                   
                     </div>
                     
                 </div>
@@ -78,7 +81,10 @@
                         <img src="images/white-star-icon-10.png" alt="white star">
                         <span>5.0</span>
                     </div>
-                    <span class="sold">120 Sold</span>  
+                    <div style="display: flex; align-items: center; justify-content: space-between; width: 100%;">
+                        <span class="sold">120 Sold</span> 
+                       <a href="#"><img class="add_cart" src="images/hous.png" alt="hous"> </a>
+                   </div> 
                     </div>
                     
                 </div>
@@ -341,9 +347,24 @@
                 </div>
             </div>
         </section>
+        <section id="nombre_page">
+            <div class="page"></div>
+            <div class="page"></div>
+            <div class="page"></div>
+            <div class="page"></div>   
+        </section>
     </main>
     <footer>
-
+        <nav>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">FQA</a></li>
+            </ul>
+        </nav>
+        <div class="cpy">
+            Copy right 2023
+        </div>
     </footer>
 </body>
 </html>
