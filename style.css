@@ -115,11 +115,12 @@ header .navigation_info ul li a{
 }
 #Best_Remise{
     display: grid;
-    grid-template-columns: 27% 27% 27% 27%;
+    grid-template-columns: 25% 25% 25% 25%;
     margin: 10px 50px;
+    place-items: center;
 }
 #Best_Remise .produits{
-    width: 70%;
+    width: 90%;
     margin-bottom: 50px;
 }
 h2{
