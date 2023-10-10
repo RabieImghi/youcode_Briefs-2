@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Header Style*/
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    margin: 10px 50px;
+    font-family: 'Segoe UI';
+}
+header .logo_search img{
+    width: 103px;
+}
+header .logo_search{
+    display: flex;
+    align-items: center;
+}
+#search{
+    width: 500px;
+    height: 50px;
+    margin-left: 20px;
+    border: 1px solid #707070;
+    border-radius: 8px;
+    padding-left: 10px;
+}
+
+header .navigation_info ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+header .navigation_info ul img{
+    width: 60px;
+}
+header .navigation_info ul .store{
+    width: 40px;
+}
+header .navigation_info ul li{
+    list-style: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: #707070;
+}
+header .navigation_info ul li a{
+    color: #707070;
+    text-decoration: none;
+}
+.Border_Separe{
+    border-right: 2px solid #707070;
+    padding-right: 20px;
+}
+/*Main style*/
+#Home_vue{
+    margin: 20px 50px;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+#Home_vue nav img{
+    width: 25px;
+    color: #707070;
+    margin-right:20px;
+}
+#Home_vue nav ul li{
+    color: #707070;
+    list-style: none;
+    border: 1px solid lightgray;
+    padding: 10px 20px;
+}
+#Home_vue nav ul li a{
+    color: #707070;
+    text-decoration: none;
+}
+#Home_vue .image_ads{
+    margin-left: 50px;
+}
+#Home_vue .image_ads img{
+    width: 100%;
+}
+/*best remise*/
+#Best_Remise .description{
+    background-color: #dff5ff;
+    border-radius: 8px;
+    color: #707070;
+    padding: 10px;
+}
+#Best_Remise .description span{
+    font-weight: bold;
+    font-size: 25px;
+    color: #707070;
+}
+#Best_Remise .description .s{
+    font-size: 20px;
+    color: red;
+}
+#Best_Remise .description img{
+    width: 30%;
+}
+#Best_Remise .produit img{
+    width: 100%;
+    position: relative;
+    top: 15px;
+    border-radius: 8px;
+}
+#Best_Remise{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    justify-content: space-between;
+    margin: 10px 50px;
+}
+#Best_Remise .produits{
+   width: 90%;
+}
+h2{
+    color: #707070;
+    font-weight: bold;
+    margin: 0 50px;
+    font-size: 40px;
+}
+#Best_Remise .star{
+    width: 20%;
+    background-color: #FACC15;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 8px;
+}
+#Best_Remise .star span{
+    color: white;
+}
+#Best_Remise .info_star{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#Best_Remise .info_star .sold{
+    border-left: 2px solid #707070;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+
