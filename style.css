@@ -28,7 +28,7 @@ header .logo_search{
     padding-left: 10px;
 }
 hr{
-    margin: 0 20px; 
+    margin: 0 50px; 
     border-top: 1px solid #94A3B8;
 }
 header .navigation_info ul{
@@ -76,6 +76,7 @@ header .navigation_info ul li a{
     list-style: none;
     padding: 21px 20px;
     border-bottom:  1px solid #94A3B8;
+    cursor: pointer;
 }
 #Home_vue nav ul li a{
     position: relative;
@@ -186,7 +187,7 @@ h2{
     gap: 30px;
     margin-bottom: 30px;
 }
-.page{
+#nombre_page .page{
     width: 30px;
     height: 30px;
     background: #E2E8F0;
@@ -216,4 +217,110 @@ footer .cpy{
     position: relative;
     bottom: 20px;
 }
+/* product page */
+#product_page{
+    display: grid;
+    grid-template-columns: 15% 85%;
+    margin: 20px 50px;
+}
+#product_page h3{
+    font-size: 25px;
+    color: #334155;
+}
+#product_page .filtr nav ul li{
+    list-style: none;
+    font-size: 20px;
+    margin: 15px 0;
+    color: #334155;
+}
+#product_page .filtr nav{
+    margin-left: 20px;
+}
+#product_page .range{
+    width: 200px;
+}
+#product_page .filter_check {
+    position: relative;
+    display: block;
+    padding-left: 35px; 
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 16px;
+}
+#product_page .filter_check input {
+    opacity: 0;
+    position: absolute;
+    right: 10px;
+}
+  
+#product_page .virify {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    border: green 1px solid;
+}
+  
+#product_page .filter_check input:checked + .virify {
+    background-image: url('images/verify.png');
+    background-size: cover;
+}
+#product_bar{
+    font-family: Arial, Helvetica, sans-serif;
 
+}
+#product_bar .search_ifo{
+    display: flex;
+    justify-content: space-between;
+}
+#product_bar .search_ifo h3 span{
+    color: rgb(250, 185, 64)   ;
+}
+#product_bar .search_ifo h3{
+    color: #334155 ;
+}
+#product_bar .search_ifo .select_sort #sort{
+    width: 180px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #64748B;
+    color: #64748B;
+    font-size: 16px;
+    padding: 5px;
+}
+#product_bar .search_ifo .select_sort label{
+    font-size: 25px;
+    color: #64748B;
+}
+#product_bar .select_filter{
+    display: flex;
+    gap: 20px;
+    border-radius: 20px;
+    padding:7px 20px;
+    border:1px solid #64748B;
+    width: 9%;
+    color: #64748B;
+    align-items: center;
+    font-weight: bold ;
+}
+#product_bar .selected_filter{
+    display: flex;
+    gap: 10px;
+}
+#product_bar .select_filter .x{
+    background: lightgray;
+    padding: 5px;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    color: white;
+    border-radius: 50%;
+}
+#product_bar .Clear{
+    color: rgb(250, 185, 64)  ;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    width: 20%;
+}
