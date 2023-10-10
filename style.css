@@ -80,6 +80,15 @@ header .navigation_info ul li a{
     width: 100%;
 }
 /*best remise*/
+.ligneSup{
+    width: 75px;
+    height: 3px;
+    background-color: red;
+    position: relative;
+    left: 90px;
+    bottom: 19px;
+    rotate: -15deg;
+}
 #Best_Remise .description{
     background-color: #dff5ff;
     border-radius: 8px;
@@ -88,12 +97,12 @@ header .navigation_info ul li a{
 }
 #Best_Remise .description span{
     font-weight: bold;
-    font-size: 25px;
+    font-size: 35px;
     color: #707070;
 }
 #Best_Remise .description .s{
-    font-size: 20px;
-    color: red;
+    font-size: 28px;
+    padding: 10px 0;
 }
 #Best_Remise .description img{
     width: 30%;
@@ -106,21 +115,21 @@ header .navigation_info ul li a{
 }
 #Best_Remise{
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    justify-content: space-between;
+    grid-template-columns: 27% 27% 27% 27%;
     margin: 10px 50px;
 }
 #Best_Remise .produits{
-   width: 90%;
+    width: 70%;
+    margin-bottom: 50px;
 }
 h2{
     color: #707070;
     font-weight: bold;
-    margin: 0 50px;
+    margin: 50px 50px 0 50px;
     font-size: 40px;
 }
 #Best_Remise .star{
-    width: 20%;
+    width: 25%;
     background-color: #FACC15;
     display: flex;
     align-items: center;
@@ -129,10 +138,12 @@ h2{
     font-weight: bold;
     font-size: 20px;
     padding: 5px;
-    border-radius: 8px;
+    margin-top: 10px;
+    border-radius: 30px;
 }
 #Best_Remise .star span{
     color: white;
+    font-size: 20px;
 }
 #Best_Remise .info_star{
     display: flex;
