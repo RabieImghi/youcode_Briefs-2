@@ -328,29 +328,173 @@ footer .cpy{
 /* detail page */
 #detail_poduit{
     display: grid;
-    grid-template-columns: 30% 30% 30%;
-    width: 90%;
-    margin: 10px 50px;
-    border: 1px solid black;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 20px 50px;
+    grid-column-gap: 40px;
 }
 #detail_poduit .detail_image .image img{
-    border-radius: 10px;
-}
-#detail_poduit .detail_image .all_image{
-    display: flex;
-}
-#detail_poduit .detail_image .all_image img{
-    width: 80%;
-}
-
-/* #detail_poduit .all_image{
-    display: flex;
-    justify-content: space-between;
-    width: 20px;
+    width: 100%;
+    border-radius: 8px;
 }
 #detail_poduit .all_image{
     display: flex;
-    justify-content: space-between;
-    width: 20px;
+    gap: 40px;
+    margin-top: 10px;
 }
-#detail_poduit .imag {} */
+#detail_poduit .all_image img{
+    width: 100%;
+    border-radius: 8px;
+}
+#detail_poduit .detail_desc .title_desc_prod{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #334155;
+}
+#detail_poduit .star_detail{
+    width: 15%;
+    height: 20px;
+    background-color: #FACC15;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+#detail_poduit .star_detail img{
+    width: 28px;
+}
+#detail_poduit .star_detail span{
+    color: white;
+    font-size: 20px;
+}
+#detail_poduit .desc_detail{
+    font-size: 25px;
+    margin-top: 10px;
+    color: #64748B;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#detail_poduit .favor_detail h3{
+    font-size: 35px; 
+    color: #334155;
+}
+#detail_poduit .favor_detail{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin-top: 10px
+}
+#detail_poduit .hert{
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+    margin-right: 40px; 
+    color: #64748B;
+    border: 1px solid #64748B;
+    padding: 5px;
+    border-radius: 10px;
+}
+#detail_poduit .size{
+    display: flex;
+    gap: 20px;
+}
+#detail_poduit .size .xxl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    color: #64748B;
+    margin-top: 10px;
+    width: 50px;
+    height: 40px;
+    border: 1px solid #64748B;
+}
+#detail_poduit .color_option{
+    display: flex;
+    gap: 20px;
+}
+#detail_poduit .color_option .color{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+#element_addcart{
+    background: #dae9ff;
+    color: #475569 ;
+    height: 100%;
+    margin: 0 20px;
+    border-radius: 8px;
+}
+#element_addcart .adresse{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    border-bottom: 1px solid #64748B;
+    font-size: 20px;
+}
+#element_addcart .shipping{
+    padding: 20px 10px;
+    border-bottom: 1px solid #64748B;
+    font-size: 20px;
+}
+#element_addcart .add_cart_counyt{
+    display:flex;
+    gap: 6px;
+    margin-top: 20px;
+}
+#element_addcart .moin{
+    text-align: center;
+    width: 30px;
+    height: 28px;
+    padding-top: 3px;
+    border-radius: 50%;
+    background: lightslategray;
+}
+#element_addcart span{
+    padding-top: 4px;
+}
+#element_addcart .plus{
+    background: #FACC15;
+}
+#element_addcart .button_detail{
+    display: grid;
+    grid-template-columns: 100%;
+    margin: 10px;
+}
+#element_addcart button{
+    height: 50px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+#element_addcart button{
+    height: 50px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+#element_addcart .button1{
+    background-color: green;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+#element_addcart .button2{
+    border:1px solid green;
+    color: green;
+    font-size: 20px;
+}
+#element_addcart .share_chat{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 30px;
+}
+#element_addcart .share_chat img{
+    width: 40px;    
+}
+#element_addcart .share_cha .sha{
+    display: flex;
+}
+
