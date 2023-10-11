@@ -417,8 +417,8 @@ footer .cpy{
     gap: 20px;
 }
 #detail_poduit .color_option .color{
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     margin-top: 10px;
 }
@@ -426,7 +426,7 @@ footer .cpy{
     background: #dae9ff;
     color: #475569 ;
     height: 100%;
-    margin: 0 20px;
+    margin: 0 0 0 70px;
     border-radius: 8px;
 }
 #element_addcart .adresse{
@@ -453,6 +453,7 @@ footer .cpy{
     padding-top: 3px;
     border-radius: 50%;
     background: lightslategray;
+    cursor: pointer;
 }
 #element_addcart span{
     padding-top: 4px;
@@ -483,6 +484,7 @@ footer .cpy{
 }
 #element_addcart .button2{
     border:1px solid green;
+    background-color: white;
     color: green;
     font-size: 20px;
 }
@@ -490,11 +492,106 @@ footer .cpy{
     display: flex;
     justify-content: space-around;
     margin: 10px 30px;
+    cursor: pointer;
 }
 #element_addcart .share_chat img{
-    width: 40px;    
+    width: 25px;    
 }
-#element_addcart .share_cha .sha{
+#element_addcart .share_chat .sha span{
+    color: #475569;
+    font-size: 20px;
+}
+#element_addcart .share_chat .sha{
     display: flex;
+    align-items: center;
+    gap: 10px;
 }
-
+#description_detail{
+    margin: 10px 50px;
+}
+#description_detail h3{
+    font-size: 30px; 
+    color: #334155;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0;
+}
+#description_detail p{
+    font-size: 25px; 
+    color: #334155;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0;
+}
+#description_detail .desc_image_detail{
+    display: flex;
+    justify-content: space-between;
+}
+#review_description h3{
+    font-size: 30px; 
+    color: #334155;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px  50px;
+}
+#review_description .stars_review {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #FACC15;
+    width: 60%;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 4px;
+    border-radius: 20px;
+}
+.rv_detail{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    margin: 0 70px;
+}
+#review_description .stars_review .stars img{
+    width: 30px;
+}
+.star_rang {
+    display: flex;
+    align-items: center;
+}
+.star_rang .range_color{
+    background-color: #FACC15;
+    border: #FACC15 1px solid;
+    height: 7px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    margin-left: 10px;
+}
+.star_rang .range_wi{
+    border: #64748B 1px solid;
+    height: 7px;
+    border-left: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    margin-right: 10px;
+}
+.profil_review .info_profil .user_image{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #707070;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.profil_review .info_profil{
+    display: flex;
+    justify-content: space-between;
+}
+.profil_review .user_review img{
+    width: 25px;
+}
+.profil_review {
+    margin-left: 70px;
+    border-left: #64748B 1px solid;
+    padding-left: 30px;
+    margin-bottom: 30px;
+}
+.profil_review  .profil{
+    margin-bottom: 10px
+}
