@@ -746,10 +746,14 @@ border-radius: 6px;
 .menu{
     display: none;
 }
+.labem, .checkbox{
+    display: none;
+}
+
 /*Responsive code*/
 @media only screen and (max-width: 600px){
     header #search{
-        width: 210px;
+        width: 180px;
         height: 40px;
     }
     .navigation_info{
@@ -775,7 +779,7 @@ border-radius: 6px;
         grid-template-columns: 100%;
     }
     .menu img{
-        width: 40px;
+        width: 35px;
     }
     .menu{
         display: block;
@@ -842,28 +846,58 @@ border-radius: 6px;
         border: none;
         margin: 0;
     }
+    #panie .produit_selected .prd_image span{
+        font-size: 14px;
+    }
+    
+    .prd_image{
+        gap: 5px;
+    }
     #panie {
         grid-template-columns: 1fr;
+        margin: 20px 20px;
     }
     .produit_selected {
-        grid-template-columns: 80% auto;
+        grid-template-columns: 70% 34%;
     }
     #panie .add_cart_counyt {
         margin-left: 10px;
     }
     .h_d img{
-        width: 25px;
+        width: 20px;
     }
     .prd_image span p{
-        padding: 3px;
+        padding: 2px;
+        font-size: 12px;
     }
     .prd_image span span{
-        font-size: 14px;
+        font-size: 12px;
     }
-    .navigation_info-element {
+    #detail_poduit .all_image {
+        gap: 5px ;
+    }
+    #detail_poduit .star_detail{
+        width: 20%;
+    }
+    .profil_review .user_review{
+        width: 50%;
+    }
+    .profil_review .user_review img{
+        width: 20px;
+    }
+    #review_description .stars_review{
+        width: 100%;
+    }
+    .hidden-nav{
         display: none;
-      }
-      .checkbox:checked + label + .navigation_info {
+    }
+    .checkbox, .labem{
         display: block;
-      }
+    }
+    .checkbox:checked + .labem + .hidden-nav {
+        display: block;
+    }
+    .checkbox2:checked + .labem2 + .hidden-nav {
+        display: inline;
+    }
 }
