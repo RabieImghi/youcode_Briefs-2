@@ -743,13 +743,127 @@ border-radius: 6px;
     background-size: cover;
     background-color: green;
 }
+.menu{
+    display: none;
+}
 /*Responsive code*/
 @media only screen and (max-width: 600px){
-    header input, nav{
+    header #search{
+        width: 210px;
+        height: 40px;
+    }
+    .navigation_info{
         display: none;
     }
-    
+   
+    #Home_vue nav ul li{
+        height: 30px;
+        padding: 2px;
+        display: flex;
+        align-items: center;
+    }
+    #Home_vue .image_ads{
+        margin: 20px 0;
+    }
+    h2{
+        font-size: 24px;
+    }
+    #Home_vue{
+        grid-template-columns: 100%;
+    }
     #Best_Remise{
         grid-template-columns: 100%;
     }
+    .menu img{
+        width: 40px;
+    }
+    .menu{
+        display: block;
+        position: relative;
+    }
+    header .logo_search img{
+        width: 73px;
+    }
+    #product_page{
+        grid-template-columns: 100%;
+    }
+    #filter_bar{
+        height: 100px;
+        overflow-y: auto;
+    }
+    #product_bar h3{
+        font-size: 20px;
+    }
+    #product_bar h3{
+        font-size: 20px;
+    }
+    #product_bar .search_ifo .select_sort label {
+        font-size: 20px;
+    }
+    #product_bar .search_ifo .select_sort #sort {
+        width: 250px;
+        margin: 10px 0;
+    }
+    #product_bar .selected_filter {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    #product_bar .select_filter {
+        width:75%;
+    }
+    #Best_Remise .produits {
+        width: 100%;    
+    }
+    #product_page #Best_Remise .star{
+        width: 33%;
+    }
+    #product_bar .search_ifo {
+        display: grid;
+        gap: 10px;
+    }
+    #detail_poduit{
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    #description_detail .desc_image_detail{
+        display: block;
+    }
+    #description_detail .desc_image_detail img{
+        width: 400px;
+    }
+    #element_addcart{
+        margin: 0;
+    }
+    .rv_detail{
+        grid-template-columns: 1fr;
+    }
+    .profil_review {
+        padding: 0;
+        border: none;
+        margin: 0;
+    }
+    #panie {
+        grid-template-columns: 1fr;
+    }
+    .produit_selected {
+        grid-template-columns: 80% auto;
+    }
+    #panie .add_cart_counyt {
+        margin-left: 10px;
+    }
+    .h_d img{
+        width: 25px;
+    }
+    .prd_image span p{
+        padding: 3px;
+    }
+    .prd_image span span{
+        font-size: 14px;
+    }
+    .navigation_info-element {
+        display: none;
+      }
+      .checkbox:checked + label + .navigation_info {
+        display: block;
+      }
 }
