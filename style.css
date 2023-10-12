@@ -110,7 +110,7 @@ header .navigation_info ul li a{
     padding:20px 10px;
 }
 #Best_Remise .description .add_cart{
-    width: 40px;
+    width: 33px;
 }
 #Best_Remise .description span{
     font-weight: bold;
@@ -423,7 +423,7 @@ footer .cpy{
     margin-top: 10px;
 }
 #element_addcart{
-    background: #dae9ff;
+    background: #F8FAFC;
     color: #475569 ;
     height: 100%;
     margin: 0 0 0 70px;
@@ -433,12 +433,12 @@ footer .cpy{
     display: flex;
     justify-content: space-between;
     padding: 20px 10px;
-    border-bottom: 1px solid #64748B;
+    border-bottom: 1px solid #64748b5d;
     font-size: 20px;
 }
 #element_addcart .shipping{
     padding: 20px 10px;
-    border-bottom: 1px solid #64748B;
+    border-bottom: 1px solid #64748b5d;
     font-size: 20px;
 }
 #element_addcart .add_cart_counyt{
@@ -477,15 +477,15 @@ footer .cpy{
     border-radius: 8px;
 }
 #element_addcart .button1{
-    background-color: green;
+    background-color: #34D399;
     border: none;
     color: white;
     font-size: 20px;
 }
 #element_addcart .button2{
-    border:1px solid green;
+    border:1px solid #34D399;
     background-color: white;
-    color: green;
+    color: #34D399;
     font-size: 20px;
 }
 #element_addcart .share_chat{
@@ -521,6 +521,9 @@ footer .cpy{
     font-family: Arial, Helvetica, sans-serif;
     margin: 10px 0;
 }
+#description_detail .desc_image_detail img{
+border-radius: 10px;
+}
 #description_detail .desc_image_detail{
     display: flex;
     justify-content: space-between;
@@ -531,6 +534,7 @@ footer .cpy{
     font-family: Arial, Helvetica, sans-serif;
     margin: 20px  50px;
 }
+
 #review_description .stars_review {
     display: flex;
     align-items: center;
@@ -554,6 +558,7 @@ footer .cpy{
 .star_rang {
     display: flex;
     align-items: center;
+    margin: 20px 0;
 }
 .star_rang .range_color{
     background-color: #FACC15;
@@ -614,8 +619,7 @@ footer .cpy{
     display: grid;
     grid-template-columns: 70% 10%;
     justify-content: space-between;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin: 20px 0 20px 20px;
 }
 .prd_image img{
     width: 15%;
@@ -697,7 +701,7 @@ footer .cpy{
     width: 94%;
     border-radius: 8px;
     height: 40px;
-    background-color: green;
+    background-color: #34D399;
     color: white;
     font-weight: bold;
     margin: 20px;
@@ -729,7 +733,7 @@ footer .cpy{
     position: absolute;
     top: 0;
     left: 0;
-    height: 15px;
+    height: 13px;
     width: 18px;
     border: green 1px solid;
 }
