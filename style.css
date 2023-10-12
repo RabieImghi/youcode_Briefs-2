@@ -522,7 +522,7 @@ footer .cpy{
     margin: 10px 0;
 }
 #description_detail .desc_image_detail img{
-border-radius: 10px;
+border-radius: 6px;
 }
 #description_detail .desc_image_detail{
     display: flex;
@@ -569,7 +569,8 @@ border-radius: 10px;
     margin-left: 10px;
 }
 .star_rang .range_wi{
-    border: #64748B 1px solid;
+    border: rgb(232, 232, 232) 1px solid;
+    background: rgb(232, 232, 232) ;
     height: 7px;
     border-left: none;
     border-top-right-radius: 4px;
@@ -736,10 +737,19 @@ border-radius: 10px;
     height: 13px;
     width: 18px;
     border: green 1px solid;
-}
-  
+} 
 .products_panie .filter_check input:checked + .virify {
     background-image: url('images/verifyWb.png');
     background-size: cover;
     background-color: green;
+}
+/*Responsive code*/
+@media only screen and (max-width: 600px){
+    header input, nav{
+        display: none;
+    }
+    
+    #Best_Remise{
+        grid-template-columns: 100%;
+    }
 }
