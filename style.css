@@ -805,7 +805,7 @@ border-radius: 6px;
         font-size: 20px;
     }
     #product_bar .search_ifo .select_sort #sort {
-        width: 250px;
+        width: 300px;
         margin: 10px 0;
     }
     #product_bar .selected_filter {
@@ -814,9 +814,11 @@ border-radius: 6px;
     }
     #product_bar .select_filter {
         width:75%;
+        font-size: 14px;
     }
-    #Best_Remise .produits {
-        width: 100%;    
+    #Best_Remise .br2 .produits {
+        width: 150%; 
+        margin-left: -50px;
     }
     #product_page #Best_Remise .star{
         width: 33%;
