@@ -816,12 +816,11 @@ border-radius: 6px;
         width:75%;
         font-size: 14px;
     }
-    #Best_Remise .br2 .produits {
-        width: 150%; 
-        margin-left: -50px;
-    }
     #product_page #Best_Remise .star{
         width: 33%;
+    }
+    #Best_Remise .prd2mobile{
+        width: 140%;
     }
     #product_bar .search_ifo {
         display: grid;
