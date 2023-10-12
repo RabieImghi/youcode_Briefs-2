@@ -756,9 +756,7 @@ border-radius: 6px;
         width: 180px;
         height: 40px;
     }
-    .navigation_info{
-        display: none;
-    }
+    
    
     #Home_vue nav ul li{
         height: 30px;
@@ -894,10 +892,29 @@ border-radius: 6px;
     .checkbox, .labem{
         display: block;
     }
+    .navigation_info{
+        position: absolute;
+        top: 90px;
+        left: 4px;
+        width: 97%;
+        background-color: white;
+        border: 1px solid #64748B ;
+        border-radius: 10px;
+        display: none;
+        z-index: 100;
+    }
+    .navigation_info ul{
+        height: 300px;
+        flex-direction: column;
+        
+    }
     .checkbox:checked + .labem + .hidden-nav {
         display: block;
     }
-    .checkbox2:checked + .labem2 + .hidden-nav {
-        display: inline;
+    .checkboxM:checked + .labemM + .navigation_info {
+        display: block;
+    }
+    .Border_Separe{
+        border: none;
     }
 }
