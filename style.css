@@ -751,21 +751,7 @@ border-radius: 6px;
 .labem, .checkbox{
     display: none;
 }
-@keyframes deplacementGaucheDroite {
-    0% {
-      top: 0;
-    }
-    50% {
-      top: 20px;
-    }
-    100% {
-      top: 0;
-    }
-  }
-  .produits{
-    position: relative;
-    animation: deplacementGaucheDroite 2s ease-in-out infinite;
-  }
+
 /*Responsive code*/
 @media only screen and (max-width: 600px){
     header #search{
