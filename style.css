@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 /*Header Style*/
 header{
@@ -9,11 +10,10 @@ header{
     justify-content: space-between;
     height: 100px;
     padding: 0px 50px;
-    font-family: Arial, Helvetica, sans-serif;
     position: sticky; top: 0; background-color: white; z-index: 1000;
 }
 header .logo_search img{
-    width: 103px;
+    width: 100px;
 }
 header .logo_search{
     display: flex;
@@ -81,7 +81,6 @@ header .navigation_info ul li a{
 }
 #Home_vue nav ul li a{
     position: relative;
-    font-family: Arial, Helvetica, sans-serif;
     bottom: 5px ;
     color: #94A3B8;
     text-decoration: none;
@@ -107,7 +106,7 @@ header .navigation_info ul li a{
     background-color: #F1F5F9;
     border-radius: 8px;
     color: #475569;
-    font-family: Arial, Helvetica, sans-serif;
+    
     padding:20px 10px;
 }
 #Best_Remise .description .add_cart{
@@ -125,7 +124,6 @@ header .navigation_info ul li a{
 }
 #Best_Remise .description p{
     color: #475569;
-    font-family: Arial, Helvetica, sans-serif;
 }
 #Best_Remise .description img{
     width: 30%;
@@ -150,7 +148,6 @@ header .navigation_info ul li a{
 h2{
     color: #334155;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
     margin: 50px 50px 0 50px;
     font-size: 40px;
 }
@@ -263,15 +260,10 @@ footer .cpy{
     height: 15px;
     width: 15px;
     border: green 1px solid;
-}
-  
+}  
 #product_page .filter_check input:checked + .virify {
     background-image: url('images/verify.png');
     background-size: cover;
-}
-#product_bar{
-    font-family: Arial, Helvetica, sans-serif;
-
 }
 #product_bar .search_ifo{
     display: flex;
@@ -349,7 +341,6 @@ footer .cpy{
 }
 #detail_poduit .detail_desc .title_desc_prod{
     font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
     color: #334155;
 }
 #detail_poduit .star_detail{
@@ -377,7 +368,6 @@ footer .cpy{
     font-size: 25px;
     margin-top: 10px;
     color: #64748B;
-    font-family: Arial, Helvetica, sans-serif;
 }
 #detail_poduit .favor_detail h3{
     font-size: 35px; 
@@ -514,13 +504,11 @@ footer .cpy{
 #description_detail h3{
     font-size: 30px; 
     color: #334155;
-    font-family: Arial, Helvetica, sans-serif;
     margin: 10px 0;
 }
 #description_detail p{
     font-size: 25px; 
     color: #334155;
-    font-family: Arial, Helvetica, sans-serif;
     margin: 10px 0;
 }
 #description_detail .desc_image_detail img{
@@ -533,7 +521,6 @@ border-radius: 6px;
 #review_description h3{
     font-size: 30px; 
     color: #334155;
-    font-family: Arial, Helvetica, sans-serif;
     margin: 20px  50px;
 }
 
@@ -542,7 +529,7 @@ border-radius: 6px;
     align-items: center;
     gap: 10px;
     background-color: #FACC15;
-    width: 60%;
+    width: 90%;
     color: white;
     font-weight: bold;
     font-size: 20px;
@@ -603,6 +590,17 @@ border-radius: 6px;
 .profil_review  .profil{
     margin-bottom: 10px;
 }
+.userinfo span{
+    display: grid;
+    gap: 20px;
+}
+.userinfo span span{
+    font-weight: 100;
+}
+.userinfo{
+    height: 100%;
+    font-weight: bold;  
+}
 #panie{
     width: 90%;
     display: grid;
@@ -642,7 +640,6 @@ border-radius: 6px;
 .prd_image span{
     height: 100%;
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
     color: #475569;
     font-weight: bold;
 }
@@ -717,7 +714,7 @@ border-radius: 6px;
     margin: 20px;
 }
 #panieHeight{
-    min-height: calc( 100vh - 270px );
+    min-height: calc( 100vh - 260px );
 }
 .products_panie .filter_check {
     position: relative;
@@ -730,7 +727,6 @@ border-radius: 6px;
     opacity: 0;
     position: absolute;
     right: 10px;
-    
 }
 .products_panie .virify {
     position: absolute;
@@ -751,15 +747,12 @@ border-radius: 6px;
 .labem, .checkbox{
     display: none;
 }
-
 /*Responsive code*/
 @media only screen and (max-width: 600px){
     header #search{
         width: 180px;
         height: 40px;
     }
-    
-   
     #Home_vue nav ul li{
         height: 30px;
         padding: 2px;
@@ -850,7 +843,6 @@ border-radius: 6px;
     #panie .produit_selected .prd_image span{
         font-size: 14px;
     }
-    
     .prd_image{
         gap: 5px;
     }
@@ -909,7 +901,6 @@ border-radius: 6px;
     .navigation_info ul{
         height: 300px;
         flex-direction: column;
-        
     }
     .checkbox:checked + .labem + .hidden-nav {
         display: block;
